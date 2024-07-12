@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTesting", "Integ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angel.Deployer", "Deployer\Angel.Deployer.csproj", "{BD301653-3B64-42F2-A353-81FE5AC5081B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angel.Db", "Angel.Db\Angel.Db.csproj", "{A1779A26-7687-4DA5-87BE-A904E5688EBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angel.Db", "Angel.Db\Angel.Db.csproj", "{A1779A26-7687-4DA5-87BE-A904E5688EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angel.Client", "Angel.Client\Angel.Client.csproj", "{C554510B-289D-4BD7-BF9A-5403C136F6F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angel.Client.Services", "Angel.Client.Services\Angel.Client.Services.csproj", "{FC196079-8BF3-4A9F-8C7D-D0BEAC6BE2DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{A1779A26-7687-4DA5-87BE-A904E5688EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1779A26-7687-4DA5-87BE-A904E5688EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1779A26-7687-4DA5-87BE-A904E5688EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C554510B-289D-4BD7-BF9A-5403C136F6F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C554510B-289D-4BD7-BF9A-5403C136F6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C554510B-289D-4BD7-BF9A-5403C136F6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C554510B-289D-4BD7-BF9A-5403C136F6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC196079-8BF3-4A9F-8C7D-D0BEAC6BE2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC196079-8BF3-4A9F-8C7D-D0BEAC6BE2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC196079-8BF3-4A9F-8C7D-D0BEAC6BE2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC196079-8BF3-4A9F-8C7D-D0BEAC6BE2DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
